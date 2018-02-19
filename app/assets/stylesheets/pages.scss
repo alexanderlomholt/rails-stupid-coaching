@@ -1,0 +1,25 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  font-family: arial;
+
+}
+
+div {
+  width: 40%;
+  border-left: 4px solid gray;
+  padding: 1px 30px 1px 20px;
+  margin: 20px;
+  p:last-child {
+    font-style: italic;
+  }
+}
+
+div:last-child {
+  background-color: #F8FFE3FF;
+  p:first-child {
+    font-weight: bold;
+  }
+}
